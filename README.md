@@ -14,6 +14,7 @@ Developed for and tested on Flarum version **0.1.0-beta.7**
 - Flarum tags are converted into NodeBB categories under a defined parent category
 - Posts are converted in original creation order but are not dated back to original creation date
 - Hidden (deleted) posts get skipped
+- Post body transformation relies entirely on the magic within Reverse Markdown and doesn't cover all possible formatting quirks that might occur. The quality of the conversion was sufficient for my needs though 😇
 
 ## Prerequisites
 
