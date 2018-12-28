@@ -10,7 +10,9 @@ Developed for and tested on Flarum version **0.1.0-beta.7**
 
 ## Limits
 
-- Users are **not** migrated, instead a header (*Originally posted by* **{username}**) is inserted into every post body on transformation to keep full-text-search working
+- Users are not migrated, instead a header (*Originally posted by* **{username}**) is inserted into every post body on transformation to keep full-text-search working
+- Non-text assets (embedded images, files etc.) are note migrated
+- Link URLs are not validated or rewritten
 - Flarum tags are converted into NodeBB categories under a defined parent category
 - Posts are converted in original creation order but are not dated back to original creation date
 - Hidden (deleted) posts get skipped
