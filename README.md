@@ -10,7 +10,7 @@ Developed for and tested on Flarum version **0.1.0-beta.7**
 
 ## Limits
 
-This converter has some fairly harsh limitations since all I wanted was to preserve the text conversations from a decommissioned Flarum installation with the least amount of time wasted as possible. Feel free to use this code as inspiration or even fork and improve it 😊
+This converter has some fairly harsh limitations since all I wanted was to preserve the text conversations from a decommissioned Flarum installation with the least amount of time wasted as possible. Feel free to use this code as inspiration or even fork and improve it 😊 What's to expect:
 
 - Users are not migrated, instead a header (*Originally posted by* **{username}**) is inserted into every post body on transformation to keep full-text-search working
 - Non-text assets (embedded images, files etc.) are note migrated
