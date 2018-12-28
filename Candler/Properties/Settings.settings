@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Candler.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="BearerToken" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">e480e807-8fe0-44de-b39b-c8d025298ff6</Value>
+    </Setting>
+    <Setting Name="UserId" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">32</Value>
+    </Setting>
+    <Setting Name="ParentCid" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">38</Value>
+    </Setting>
+    <Setting Name="BaseUrl" Type="System.Uri" Scope="Application">
+      <Value Profile="(Default)">https://forums.vigem.org</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
